@@ -257,7 +257,7 @@ class DatabaseHelper {
   }
 
   Future<void> _seedDefaultUsers(Database db) async {
-    final hashAdmin = _hash('admin123');
+    final hashAdmin = _hash('');
     final now = DateTime.now().toIso8601String();
 
     // ملاحظة: لا يتم إنشاء "حساب زائر" — الزائر = مستخدم غير مسجّل (تصفح فقط).

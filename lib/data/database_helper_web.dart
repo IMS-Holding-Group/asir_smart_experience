@@ -44,7 +44,7 @@ class DatabaseHelper {
   }
 
   void _seed() {
-    final hashAdmin = _hash('admin123');
+    final hashAdmin = _hash('');
     final now = DateTime.now().toIso8601String();
 
     // الزائر = مستخدم غير مسجّل (تصفح فقط). لا نُنشئ "حساب زائر".

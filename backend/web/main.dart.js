@@ -44089,7 +44089,7 @@ var $async$ei=A.C(function(a,b){if(a===1)return A.y(b,r)
 while(true)switch(s){case 0:if(p.a){s=1
 break}o=t.N
 n=t.z
-p.b.push(A.R(["id",1,"email","admin@asir.sa","password_hash",A.aMv(B.qf.dD(B.cB.dD("admin123")).a),"name","\u0645\u0633\u0624\u0648\u0644 \u0627\u0644\u0646\u0638\u0627\u0645","phone","0500000000","city","\u0623\u0628\u0647\u0627","created_at",new A.d0(Date.now(),0,!1).pQ()],o,n))
+p.b.push(A.R(["id",1,"email","admin@asir.sa","password_hash",A.aMv(B.qf.dD(B.cB.dD("")).a),"name","\u0645\u0633\u0624\u0648\u0644 \u0627\u0644\u0646\u0638\u0627\u0645","phone","0500000000","city","\u0623\u0628\u0647\u0627","created_at",new A.d0(Date.now(),0,!1).pQ()],o,n))
 p.y=2
 p.f.push(A.R(["id",p.as++,"user_id",1,"points",0],o,n))
 p.a=!0
